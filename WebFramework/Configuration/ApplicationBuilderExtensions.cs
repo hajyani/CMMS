@@ -28,6 +28,11 @@ namespace WebFramework.Configuration
                 endpoints.MapControllers();
 
                 endpoints.MapControllerRoute(
+                    name: "default",
+                    pattern: "{controller=Home}/{action=Index}/{id?}");
+
+
+                endpoints.MapControllerRoute(
                    name: "login",
                    pattern: "login",
                    defaults: new { controller = "Account", action = "Login" });
@@ -51,9 +56,6 @@ namespace WebFramework.Configuration
                     pattern: "resetpassword",
                     defaults: new { controller = "User", action = "ResetPassword" });
 
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
 
                 endpoints.MapControllerRoute(
                   name: "areas",

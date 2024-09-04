@@ -21,6 +21,7 @@
     <Content Remove="Areas\AdminPanel\Views\Shared\_AdminLayout.cshtml" />
     <Content Remove="Areas\AdminPanel\Views\Shared\_ValidationScriptsPartial.cshtml" />
     <Content Remove="Views\Account\ChangePassword.cshtml" />
+    <Content Remove="Views\Shared\_Layout - Copy.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -41,6 +42,7 @@
   <ItemGroup>
     <None Include="Areas\AdminPanel\Views\Shared\_AdminLayout.cshtml" />
     <None Include="Areas\AdminPanel\Views\Shared\_ValidationScriptsPartial.cshtml" />
+    <None Include="Views\Shared\_Layout - Copy.cshtml" />
     <None Include="Views\User\ChangePassword.cshtml" />
     <None Include="Views\Account\Login.cshtml" />
     <None Include="Views\Home\Index.cshtml" />
@@ -92,6 +94,16 @@
     <None Include="wwwroot\lib\jquery\dist\jquery.js" />
     <None Include="wwwroot\lib\jquery\dist\jquery.min.js" />
     <None Include="wwwroot\lib\jquery\dist\jquery.min.map" />
+    <None Include="wwwroot\siteTemplate\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\siteTemplate\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\siteTemplate\fonts\yekannumbers.svg" />
+    <None Include="wwwroot\siteTemplate\fonts\yekanweb.svg" />
+    <None Include="wwwroot\siteTemplate\js\bootstrap.min.js" />
+    <None Include="wwwroot\siteTemplate\js\jquery.min.js" />
+    <None Include="wwwroot\siteTemplate\js\modernizr.js" />
+    <None Include="wwwroot\siteTemplate\js\owl.carousel.js" />
+    <None Include="wwwroot\siteTemplate\js\script.js" />
+    <None Include="wwwroot\siteTemplate\js\wow.js" />
   </ItemGroup>
 
   <ItemGroup>
@@ -100,8 +112,6 @@
 
   <ItemGroup>
     <Folder Include="Areas\AdminPanel\Views\Shared\Components\" />
-    <Folder Include="ViewComponents\" />
-    <Folder Include="Views\Shared\Components\" />
   </ItemGroup>
 
   <ItemGroup>
